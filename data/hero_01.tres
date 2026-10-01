@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="HeroData" format=3 uid="uid://dpvtf1mkxmpov"]
+
+[ext_resource type="Script" uid="uid://rcbu1k23d0pu" path="res://data/hero_data.gd" id="1_cgjw2"]
+
+[resource]
+script = ExtResource("1_cgjw2")
+hero_name = "Personagem1"
+level = 3
+agility = 2
+metadata/_custom_type_script = "uid://rcbu1k23d0pu"

@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://cttup7dw0p7o0"]
+
+[ext_resource type="Script" uid="uid://hrki6x5dheps" path="res://scenes/main_screen.gd" id="1_7fvvs"]
+[ext_resource type="Resource" uid="uid://dpvtf1mkxmpov" path="res://data/hero_01.tres" id="2_kusfh"]
+
+[node name="Control" type="Control" unique_id=1370759596]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7fvvs")
+hero = ExtResource("2_kusfh")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1202068112]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CoinsLabel" type="Label" parent="VBoxContainer" unique_id=1110103893]
+layout_mode = 2
+text = "Moedas: 0"
+
+[node name="CoinButton" type="Button" parent="VBoxContainer" unique_id=1053304270]
+layout_mode = 2
+text = "Ganhar moeda"
+
+[node name="HeroLabel" type="Label" parent="VBoxContainer" unique_id=1641922715]
+layout_mode = 2

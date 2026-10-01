@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Heroes"
+run/main_scene="uid://cttup7dw0p7o0"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
